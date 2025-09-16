@@ -1,0 +1,41 @@
+site_name: "Apuntes de Seguridad Informática © Antonio Díaz Santamaría"
+site_author: Antonio Díaz Santamaría
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'indigo'  # Color primario
+    accent: 'red'      # Color de acento
+  features:
+    - navigation.sections  # Expansión y colapso de las secciones
+    - navigation.instant   # Desplazamiento rápido
+    - toc.hide             # Oculta la barra lateral derecha
+
+extra_css:
+  - 'assets/css/custom.css'
+  - 'assets/css/stylesheets.css'
+
+nav:
+  - Índice: 'index.md'
+  - UD1:
+      - "1.1 Introducción a la seguridad informática": "u01/01-01.md"
+      - "1.2 Tipos de seguridad": "u01/01-02.md"
+      - "1.3 Ubicación y condiciones ambientales": "u01/01-03.md"
+      - "1.4 Protección física de los sistemas": "u01/01-04.md"
+      - "1.5 Sistemas de Alimentación Ininterrumpida (SAI)":
+          - "1.5.1 ¿Qué es un SAI?": "u01/01-05-01.md"
+          - "1.5.2 Riesgos eléctricos": "u01/01-05-02.md"
+          - "1.5.3 Tipos de SAI": "u01/01-05-03.md"
+          - "1.5.4 Componentes de un SAI": "u01/01-05-04.md"
+          - "1.5.5 Selección de un SAI": "u01/01-05-05.md"
+          - "1.5.6 Verificación del funcionamiento de un SAI": "u01/01-05-06.md"
+          - "1.5.7 Mantenimiento de un SAI": "u01/01-05-07.md"
+          - "1.5.8 Selección de los puntos de aplicación": "u01/01-05-08.md"
+      - "1.6 Políticas de seguridad lógica pasiva":
+          - "1.6.1 Políticas de Contraseñas": "u01/01-06-01.md"
+          - "1.6.2 Listas de Control de Acceso (ACL)": "u01/01-06-02.md"
+          - "1.6.3 Ejemplos prácticos de ACL en sistemas operativos": "u01/01-06-03.md"
+      - "1.7 Biometría y sistemas de autenticación": "u01/01-07.md"
+      - "1.8 Resumen": "u01/01-08.md"
+
+
