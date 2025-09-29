@@ -12,9 +12,3 @@ Trabajaremos desde los conceptos básicos de la seguridad hasta aspectos prácti
 6. [Políticas de seguridad lógica pasiva: contraseñas y ACLs](01-06.md)
 7. [La paradoja de la seguridad](01-07.md)
 8. [Resumen y conclusiones](01-08.md)
-
----
-
-> Sugerencia: al final de cada apartado añade navegación local:
-> - _Anterior_ | **[Volver a la portada de la UD1](./)** | _Siguiente_
-

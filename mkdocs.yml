@@ -1,6 +1,5 @@
 site_name: "Apuntes de Seguridad Informática © Antonio Díaz Santamaría"
 site_author: Antonio Díaz Santamaría
-
 theme:
   name: 'material'
   palette:
@@ -9,33 +8,70 @@ theme:
   features:
     - navigation.sections  # Expansión y colapso de las secciones
     - navigation.instant   # Desplazamiento rápido
-    - toc.hide             # Oculta la barra lateral derecha
-
+    - toc.hide             # oculta la barra lateral derecha
+    - navigation.top
+    - navigation.tabs
+      # quita el footer por defecto
+extra:
+  social: []
+  copyright: ""
 extra_css:
-  - 'assets/css/custom.css'
+  - 'assets/css/custom.css'  # Ruta al archivo CSS que acabamos de crear  
   - 'assets/css/stylesheets.css'
 
 nav:
-  - Índice: 'index.md'
   - UD1:
-      - "1.1 Introducción a la seguridad informática": "u01/01-01.md"
-      - "1.2 Tipos de seguridad": "u01/01-02.md"
-      - "1.3 Ubicación y condiciones ambientales": "u01/01-03.md"
-      - "1.4 Protección física de los sistemas": "u01/01-04.md"
-      - "1.5 Sistemas de Alimentación Ininterrumpida (SAI)":
-          - "1.5.1 ¿Qué es un SAI?": "u01/01-05-01.md"
-          - "1.5.2 Riesgos eléctricos": "u01/01-05-02.md"
-          - "1.5.3 Tipos de SAI": "u01/01-05-03.md"
-          - "1.5.4 Componentes de un SAI": "u01/01-05-04.md"
-          - "1.5.5 Selección de un SAI": "u01/01-05-05.md"
-          - "1.5.6 Verificación del funcionamiento de un SAI": "u01/01-05-06.md"
-          - "1.5.7 Mantenimiento de un SAI": "u01/01-05-07.md"
-          - "1.5.8 Selección de los puntos de aplicación": "u01/01-05-08.md"
-      - "1.6 Políticas de seguridad lógica pasiva":
-          - "1.6.1 Políticas de Contraseñas": "u01/01-06-01.md"
-          - "1.6.2 Listas de Control de Acceso (ACL)": "u01/01-06-02.md"
-          - "1.6.3 Ejemplos prácticos de ACL en sistemas operativos": "u01/01-06-03.md"
-      - "1.7 La paradoja de la seguridad": "u01/01-07.md"
-      - "1.8 Resumen": "u01/01-08.md"
+      - "1 Introducción a la seguridad informática": "u01/01-01.md"
+      - "2 Tipos de seguridad": "u01/01-02.md"
+      - "3 Ubicación y condiciones ambientales": "u01/01-03.md"
+      - "4 Protección física de los sistemas": "u01/01-04.md"
+      - "5 Sistemas de Alimentación Ininterrumpida (SAI)":
+          - "5.1 ¿Qué es un SAI?": "u01/01-05-01.md"
+          - "5.2 Riesgos eléctricos": "u01/01-05-02.md"
+          - "5.3 Tipos de SAI": "u01/01-05-03.md"
+          - "5.4 Componentes de un SAI": "u01/01-05-04.md"
+          - "5.5 Selección de un SAI": "u01/01-05-05.md"
+          - "5.6 Verificación del funcionamiento de un SAI": "u01/01-05-06.md"
+          - "5.7 Mantenimiento de un SAI": "u01/01-05-07.md"
+          - "5.8 Selección de los puntos de aplicación": "u01/01-05-08.md"
+      - "6 Políticas de seguridad lógica pasiva":
+          - "6.0 Politicas de Seguridad Pasiva": "u01/01-06-00.md"
+          - "6.1 Políticas de Contraseña": "u01/01-06-01.md"
+          - "6.2 Listas de Control de Acceso (ACL)": "u01/01-06-02.md"
+          - "6.3 Ejemplos prácticos de ACL en sistemas operativos": "u01/01-06-03.md"
+      - "7 La paradoja de la seguridad": "u01/01-07.md"
+      - "8 Resumen y Conclusiones ": "u01/01-08.md"
+
+  - UD2:
+    - "1 Introducción al almacenamiento": "u02/02-01.md"
+    - "2 Unidades de almacenamiento": "u02/02-02.md"
+    - "3 Características y factores clave":
+        - "3.0 Introducción a las características": "u02/02-03-00.md"
+        - "3.1 Rendimiento": "u02/02-03-01.md"
+        - "3.2 Buenas prácticas respecto al rendimiento":
+            - "Fragmentación del disco": "u02/02-03-02-01.md"
+            - "Comando TRIM": "u02/02-03-02-02.md"
+            - "Temperatura": "u02/02-03-02-03.md"
+            - "Ajustes adicionales en SSD": "u02/02-03-02-04.md"
+        - "3.3 Disponibilidad": "u02/02-03-03.md"
+        - "3.4 Accesibilidad": "u02/02-03-04.md"
+    - "4 Almacenamiento redundante y distribuido":
+        - "4.1 Almacenamiento redundante": "u02/02-04-01.md"
+        - "4.2 Almacenamiento distribuido": "u02/02-04-02.md"
+    - "5 Almacenamiento externo y extraíble": "u02/02-05.md"
+    - "6 Almacenamiento remoto (en la nube)": "u02/02-06.md"
+    - "7 Imágnes de respaldo y Copias de seguridad":
+        - "7.0 Introducción": "u02/02-07-00.md"
+        - "7.1 Imágenes de respaldo": "u02/02-07-01.md"
+        - "7.2 Virtualización de servidores": "u02/02-07-02.md"
+        - "7.3 Copias de seguridad": 
+            - "7.3.0 Introducción": "u02/02-07-03-00.md"
+            - "7.3.1 Tipos": "u02/02-07-03-01.md"
+            - "7.3.2 Política de copias de seguridad": "u02/02-07-03-02.md"
+            - "7.3.3 Herramientas": "u02/02-07-03-03.md"
+            - "7.3.4 Plan de restauración de las copias": "u02/02-07-03-04.md"
+            - "7.3.5 Buenas prácticas": "u02/02-07-03-05.md"
+
+
 
 
