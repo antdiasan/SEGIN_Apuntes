@@ -20,6 +20,7 @@ extra_css:
   - 'assets/css/stylesheets.css'
 
 nav:
+# --- ESTRUCTURA DE LA UNIDAD 1 (SEGURIDAD PASIVA) ---
   - UD1:
       - "1 Introducción a la seguridad informática": "u01/01-01.md"
       - "2 Tipos de seguridad": "u01/01-02.md"
@@ -27,50 +28,59 @@ nav:
       - "4 Protección física de los sistemas": "u01/01-04.md"
       - "5 Sistemas de Alimentación Ininterrumpida (SAI)":
           - "5.1 ¿Qué es un SAI?": "u01/01-05-01.md"
-          - "5.2 Riesgos eléctricos": "u01/01-05-02.md"
+          - "5.2 Riesgos de la red eléctrica": "u01/01-05-02.md"
           - "5.3 Tipos de SAI": "u01/01-05-03.md"
-          - "5.4 Componentes de un SAI": "u01/01-05-04.md"
-          - "5.5 Selección de un SAI": "u01/01-05-05.md"
-          - "5.6 Verificación del funcionamiento de un SAI": "u01/01-05-06.md"
-          - "5.7 Mantenimiento de un SAI": "u01/01-05-07.md"
-          - "5.8 Selección de los puntos de aplicación": "u01/01-05-08.md"
-      - "6 Políticas de seguridad lógica pasiva":
-          - "6.0 Politicas de Seguridad Pasiva": "u01/01-06-00.md"
-          - "6.1 Políticas de Contraseña": "u01/01-06-01.md"
-          - "6.2 Listas de Control de Acceso (ACL)": "u01/01-06-02.md"
-          - "6.3 Ejemplos prácticos de ACL en sistemas operativos": "u01/01-06-03.md"
-      - "7 La paradoja de la seguridad": "u01/01-07.md"
-      - "8 Resumen y Conclusiones ": "u01/01-08.md"
-
+  
+  # --- ESTRUCTURA DE LA UNIDAD 2 (DISPOSITIVOS DE ALMACENAMIENTO) ---
   - UD2:
-    - "1 Introducción al almacenamiento": "u02/02-01.md"
-    - "2 Unidades de almacenamiento": "u02/02-02.md"
-    - "3 Características y factores clave":
-        - "3.0 Introducción a las características": "u02/02-03-00.md"
-        - "3.1 Rendimiento": "u02/02-03-01.md"
-        - "3.2 Buenas prácticas respecto al rendimiento":
-            - "Fragmentación del disco": "u02/02-03-02-01.md"
-            - "Comando TRIM": "u02/02-03-02-02.md"
-            - "Temperatura": "u02/02-03-02-03.md"
-            - "Ajustes adicionales en SSD": "u02/02-03-02-04.md"
-        - "3.3 Disponibilidad": "u02/02-03-03.md"
-        - "3.4 Accesibilidad": "u02/02-03-04.md"
-    - "4 Almacenamiento redundante y distribuido":
-        - "4.1 Almacenamiento redundante": "u02/02-04-01.md"
-        - "4.2 Almacenamiento distribuido": "u02/02-04-02.md"
-    - "5 Almacenamiento externo y extraíble": "u02/02-05.md"
-    - "6 Almacenamiento remoto (en la nube)": "u02/02-06.md"
-    - "7 Imágnes de respaldo y Copias de seguridad":
-        - "7.0 Introducción": "u02/02-07-00.md"
-        - "7.1 Imágenes de respaldo": "u02/02-07-01.md"
-        - "7.2 Virtualización de servidores": "u02/02-07-02.md"
-        - "7.3 Copias de seguridad": 
-            - "7.3.0 Introducción": "u02/02-07-03-00.md"
-            - "7.3.1 Tipos": "u02/02-07-03-01.md"
-            - "7.3.2 Política de copias de seguridad": "u02/02-07-03-02.md"
-            - "7.3.3 Herramientas": "u02/02-07-03-03.md"
-            - "7.3.4 Plan de restauración de las copias": "u02/02-07-03-04.md"
-            - "7.3.5 Buenas prácticas": "u02/02-07-03-05.md"
+      - "1 Introducción": "u02/02-01.md"
+      - "2 Clasificación": "u02/02-02.md"
+      - "3 Factores a considerar":
+          - "Introducción": "u02/02-03-00.md"
+          - "Rendimiento": "u02/02-03-01.md"
+          - "Configuraciones":
+              - "Fragmentación": "u02/02-03-02-01.md"
+              - "Comando TRIM": "u02/02-03-02-02.md"
+              - "Temperatura": "u02/02-03-02-03.md"
+              - "Otras": "u02/02-03-02-04.md"
+          - "Disponibilidad": "u02/02-03-03.md"
+          - "Accesibilidad": "u02/02-03-04.md"
+      - "4 Tipos de Almacenamiento":
+          - "Riesgos en el almacenamiento de datos": "u02/02-04-00.md"
+          - "Almacenamiento Redundante": "u02/02-04-01.md"
+          - "Almacenamiento Distribuido": "u02/02-04-02.md"
+      - "5 Almacenamiento Extraible": "u02/02-05.md"
+      - "6 Almacenamiento Remoto": "u02/02-06.md"
+      - "7 Virtualización de Servidores": 
+          - "Introducción": "u02/02-07-00.md"
+          - "Imagen de Respaldo": "u02/02-07-01.md"
+          - "Hipervisor": "u02/02-07-02.md"
+          - "Copias de Seguridad":
+              - "Introducción": "u02/02-07-03-00.md"
+              - "Programación de copias": "u02/02-07-03-01.md"
+              - "Políticas de copias de seguridad": "u02/02-07-03-02.md"
+              - "Restauración": "u02/02-07-03-04.md"
+              - "Seguridad física": "u02/02-07-03-05.md"
+              - "Buenas Prácticas": "u02/02-07-03-06.md"
+      - "8 Documentación Técnica": "u02/02-08.md"
+  
+  # --- ESTRUCTURA DE LA UNIDAD 3 (SEGURIDAD ACTIVA) ---
+  - UD3:
+      - "1 Principios de Seguridad Activa": "u03/03-01.md"
+      - "2 Mecanismos de Autenticación y Acceso":
+          - "2.1 Autenticación (Contraseñas y 2FA)": "u03/03-02-01.md"
+          - "2.2 Control de Acceso (ACL)": "u03/03-02-02.md"
+          - "2.3 Centralización (Directorios, SSO y Biometría)": "u03/03-02-03.md"
+      - "3 Gestión del Software Malicioso (Malware)":
+          - "3.1 Software Malicioso (Malware)": "u03/03-03-01.md"
+          - "3.2 Software Antimalware": "u03/03-03-02.md"
+          - "3.3 Desinfección y Recuperación de Datos": "u03/03-03-03.md"
+      - "4 Fortalecimiento del Sistema (Hardening)":
+          - "4.1 Hardening y Verificación del Origen": "u03/03-04-01.md"
+          - "4.2 Actualizaciones Periódicas": "u03/03-04-02.md"
+          - "4.3 Planes de Contingencia y Respuesta": "u03/03-04-03.md"
+
+
 
 
 
