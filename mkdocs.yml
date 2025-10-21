@@ -15,6 +15,7 @@ theme:
 extra:
   social: []
   copyright: ""
+  generator: false
 extra_css:
   - 'assets/css/custom.css'  # Ruta al archivo CSS que acabamos de crear  
   - 'assets/css/stylesheets.css'
