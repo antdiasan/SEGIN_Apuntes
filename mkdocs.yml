@@ -31,6 +31,13 @@ nav:
           - "5.1 ¿Qué es un SAI?": "u01/01-05-01.md"
           - "5.2 Riesgos de la red eléctrica": "u01/01-05-02.md"
           - "5.3 Tipos de SAI": "u01/01-05-03.md"
+      - "6 Políticas de seguridad lógica pasiva":
+          - "6.1 Introducción": "u01/01-06-00.md"
+          - "6.2 Las Contraseñas": "u01/01-06-01.md"
+          - "6.3 Listas de Control de Acceso": "u01/01-06-02.md"
+          - "6.4 ¿Que permite gestionar las ACL?": "u01/01-06-03.md"
+      - "7 La importancia del equilibrio en la Seguridad": "u01/01-07.md"
+      - "8 Resumen": "u01/01-08.md"
   
   # --- ESTRUCTURA DE LA UNIDAD 2 (DISPOSITIVOS DE ALMACENAMIENTO) ---
   - UD2:
