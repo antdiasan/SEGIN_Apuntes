@@ -19,7 +19,11 @@ extra:
 extra_css:
   - 'assets/css/custom.css'  # Ruta al archivo CSS que acabamos de crear  
   - 'assets/css/stylesheets.css'
-
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  
 nav:
 # --- ESTRUCTURA DE LA UNIDAD 1 (SEGURIDAD PASIVA) ---
   - UD1:
