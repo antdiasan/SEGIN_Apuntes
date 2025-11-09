@@ -1,7 +1,11 @@
 site_name: "Apuntes de Seguridad Informática © Antonio Díaz Santamaría"
 site_author: Antonio Díaz Santamaría
+site_description: "Apuntes del Ciclo Medio de Informática, Sistemas Microinformático y Redes (SMR) - Módulo de Seguridad Informática."
 theme:
   name: 'material'
+  language: es
+  icon:
+    logo: material/shield-key # O cualquier otro ícono relevante de Material Icons
   palette:
     primary: 'indigo'  # Color primario
     accent: 'red'      # Color de acento
@@ -10,8 +14,7 @@ theme:
     - navigation.instant   # Desplazamiento rápido
     - toc.hide             # oculta la barra lateral derecha
     - navigation.top
-    - navigation.tabs
-      # quita el footer por defecto
+    - navigation.tabs      # quita el footer por defecto
 extra:
   social: []
   copyright: ""
@@ -23,6 +26,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+plugins:
+  - search:
+      lang: es # Asegura que la búsqueda soporte el español
   
 nav:
 # --- ESTRUCTURA DE LA UNIDAD 1 (SEGURIDAD PASIVA) ---
@@ -79,21 +85,25 @@ nav:
   # --- ESTRUCTURA DE LA UNIDAD 3 (SEGURIDAD ACTIVA) ---
   - UD3:
       - "1 Principios de Seguridad Activa": "u03/03-01.md"
-      - "2 Mecanismos de Autenticación y Acceso":
-          - "2.1 Autenticación (Contraseñas y 2FA)": "u03/03-02-01.md"
-          - "2.2 Control de Acceso (ACL)": "u03/03-02-02.md"
-          - "2.3 Centralización (Directorios, SSO y Biometría)": "u03/03-02-03.md"
-      - "3 Gestión del Software Malicioso (Malware)":
-          - "3.1 Software Malicioso (Malware)": "u03/03-03-01.md"
-          - "3.2 Software Antimalware": "u03/03-03-02.md"
-          - "3.3 Desinfección y Recuperación de Datos": "u03/03-03-03.md"
-      - "4 Fortalecimiento del Sistema (Hardening)":
-          - "4.1 Hardening y Verificación del Origen": "u03/03-04-01.md"
-          - "4.2 Actualizaciones Periódicas": "u03/03-04-02.md"
-          - "4.3 Planes de Contingencia y Respuesta": "u03/03-04-03.md"
-
-
-
-
-
-
+      - "2 Objetivos y Ciclo de la Seguridad Activa": "u03/03-02.md"
+      - "3 Mecanismos de Autenticación y Acceso":
+          - "Autenticación (Contraseñas y 2FA)": "u03/03-03-01.md"
+          - "Sistemas Biométricos": "u03/03-03-02.md"
+          - "Accesos y Privilegios":
+              - "Control de Acceso y Elevación de Privilegios": "u03/03-03-03-01.md"
+              - "Tipos de Control de Acceso": "u03/03-03-03-02.md"
+              - "Listas de Control de Acceso (ACL)": "u03/03-03-03-03.md"
+              - "Funcionamiento de las ACL": "u03/03-03-03-04.md"
+              - "Control Centralizado": "u03/03-03-03-05.md"
+      - "4 Gestión del Software Malicioso (Malware)":
+          - "Software Malicioso (Malware)": "u03/03-04-01.md"
+          - "Tipos de Software Malicioso y Medidas de Prevención": "u03/03-04-02.md"
+          - "Software Antimalware - Funciones y Detección": "u03/03-04-03.md"
+          - "Software Antimalware - Gestión Avanzada y EDR": "u03/03-04-04.md"
+          - "Desinfección del Sistema": "u03/03-04-05.md"
+          - "Recuperación de Datos": "u03/03-04-06.md"
+      - "5 Fortalecimiento del Sistema (Hardening)":
+          - "Fortalecimiento del Sistema (Hardening Básico)": "u03/03-05-01.md"
+          - "Mantenimiento y Verificación de la Seguridad": "u03/03-05-02.md"
+          - "Control, Auditoría y Mejora Continua de la Seguridad": "u03/03-05-03.md"
+      - "Glosario": "u03/03-glosario.md"
