@@ -28,6 +28,11 @@ Conjunto de ordenadores conectados en red y con gestión centralizada.
 
 ---
 
+### Dominio de Windows
+Entorno de red centralizado administrado con **Active Directory**, donde usuarios y equipos se gestionan desde un servidor llamado Controlador de Dominio.
+
+---
+
 ### Hardening
 Proceso mediante el cual se aumenta la seguridad de un sistema informático —como un servidor, equipo o red— reduciendo su superficie de vulnerabilidad.
 
